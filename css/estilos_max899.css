@@ -9,12 +9,14 @@
     order: 1;
   }
   .titulo{
-    width: 100%;
+    /* width: 100%; */
+    width: 97%;
     text-align: center;
     order: 2;
   }
   .menu{
-    width: 100%;
+    /* width: 100%; */
+    width: 97%;
     text-align: center;
     order: 3;
   }
@@ -44,19 +46,20 @@
     order: 8;
   }
   .contacto{
-    width: 100%;
+    /* width: 100%; */
+    width: 97%;
     order: 9;
   }
   .terminos{
-    width: 100%;
+    width: 97%;
     order: 10;
   }
   .redes{
-    width: 100%;
+    width: 97%;
     order: 11;
   }
   .derechos{
-    width: 100%;
+    width: 94%;
     order: 12;
   }
 }

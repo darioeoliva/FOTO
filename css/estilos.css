@@ -1,65 +1,152 @@
 body{
-  background-color: #02010a;
+  font-family: 'Dancing Script', cursive;
+	background-color: #02010a;
+  text-align: center;
+}
+img{
+    box-shadow: 2px 2px #02010a;
+    border: 1px solid black;
 }
 .contenido{
   margin: 0 auto;
-  background-color: white;
+  animation-name: contenido-animation;
+  animation-duration: 1.5s;
+}
+@keyframes contenido-animation {
+  0%{
+    position: relative;
+    margin-top: 150%;
+  }
+  60%{
+    position: relative;
+    margin-top: -5%;
+  }
+  100%{
+    position: relative;
+    margin-top: 0%;
+  }
 }
 .cabecera{
-  background-color: brown;
+  background-color: #5b7989;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
 }
 .titulo{
-  background-color: green;
+  text-shadow: 2px 2px #02010a;
+  font-size: 27px;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 .menu{
-  background-color: violet;
+  font-size: 21px;
+  padding-right: 3%;
+  padding-top: 3.5%;
+  padding-bottom: 3%;
+}
+.cabecera a {
+  color: white;
+}
+#inicio{
+  text-decoration-line: none;
 }
 .img_central{
-  background-color: red;
+  background-color: #82c3a6;
 }
 .img_central img{
   width: 90%;
-  padding: 4%;
+  margin: 4%;
 }
 .img_secundaria{
-  background-color: yellow;
+  background-color: #d5c75f;
+}
+.img_secundaria a{
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  font-size: 21px;
 }
 .paisaje1{
-  background-color: violet;
   text-align: center;
 }
 .retrato1{
-  background-color: brown;
   text-align: center;
 }
 .paisaje1 img{
   width: 90%;
-  padding-top: 4%;
-  padding-left: 4%;
-  padding-right: 4%;
+  margin-top: 4%;
+  margin-left: 4%;
+  margin-right: 4%;
+  transition-property: all;
+  transition-duration: 1.2s;
+}
+.paisaje1 img:hover{
+  box-shadow: 2px 2px #82c3a6;
+  border: 2px solid black;
+  transform: rotate(10deg);
 }
 .retrato1 img{
   width: 90%;
-  padding-top: 4%;
-  padding-left: 4%;
-  padding-right: 4%;
+  margin-top: 4%;
+  margin-left: 4%;
+  margin-right: 4%;
+  transition-property: all;
+  transition-duration: 1.2s;
+}
+.retrato1 img:hover{
+  box-shadow: 2px 2px #82c3a6;
+  border: 2px solid black;
+  transform: translate(20px,-5px);
 }
 .pie{
-  background-color: orange;
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+  text-align:left;
 }
 .contacto{
-  background-color: green;
-  text-align: center;
+  /* background-color: green; */
+  margin-top: 27px;
+  margin-left: 27px;
+}
+.contacto div{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 4px;
 }
 .terminos{
-  background-color: red;
-  text-align: center;
+  /* background-color: red; */
+  margin-top: 27px;
+  margin-left: 27px;
+}
+.terminos div{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 4px;
 }
 .redes{
-  background-color: violet;
-  text-align: center;
+  /* background-color: violet; */
+  margin-top: 27px;
+  margin-left: 27px;
+  margin-bottom: 20px;
+}
+.redes div{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.redes img{
+  /* width: 8%; */
+  width: 20px;
 }
 .derechos{
-  background-color: brown;
-  text-align: center;
+  /* background-color: brown; */
+  margin-top: 27px;
+  margin-left: 27px;
+  margin-right: 27px;
+  margin-bottom: 20px;
+}
+.derechos div{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 4px;
 }
