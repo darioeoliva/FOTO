@@ -1,0 +1,62 @@
+@media (max-width: 899px){
+  .contenido{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .cabecera{
+    width: 100%;
+    order: 1;
+  }
+  .titulo{
+    width: 100%;
+    text-align: center;
+    order: 2;
+  }
+  .menu{
+    width: 100%;
+    text-align: center;
+    order: 3;
+  }
+  .img_central{
+    text-align: center;
+    order: 4;
+  }
+  .img_secundaria{
+    order: 5;
+  }
+  .paisaje1{
+    width: 100%;
+    order: 6;
+  }
+  .paisaje1 p{
+    padding-bottom: 2%;
+  }
+  .retrato1{
+    width: 100%;
+    order: 7;
+  }
+  .retrato1 p{
+    padding-bottom: 2%;
+  }
+  .pie{
+    width: 100%;
+    order: 8;
+  }
+  .contacto{
+    width: 100%;
+    order: 9;
+  }
+  .terminos{
+    width: 100%;
+    order: 10;
+  }
+  .redes{
+    width: 100%;
+    order: 11;
+  }
+  .derechos{
+    width: 100%;
+    order: 12;
+  }
+}

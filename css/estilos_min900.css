@@ -1,0 +1,46 @@
+@media (min-width: 900px){
+  .contenido{
+    width: 900px;
+  }
+  .cabecera{
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .titulo{
+    width: 50%;
+    text-align: left;
+  }
+  .menu{
+    width: 50%;
+    text-align: right;
+  }
+  .img_central{
+    text-align: center;
+  }
+  .img_secundaria{
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .paisaje1{
+    width: 50%;
+  }
+  .retrato1{
+    width: 50%;
+  }
+  .pie{
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .contacto{
+    width: 25%;
+  }
+  .terminos{
+    width: 25%;
+  }
+  .redes{
+    width: 25%;
+  }
+  .derechos{
+    width: 25%;
+  }
+}
