@@ -1,0 +1,24 @@
+@media (min-width: 900px){
+  .img_paisajes{
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .paisaje2_1{
+    width: 33.3%;
+  }
+  .paisaje2_2{
+    width: 33.3%;
+  }
+  .paisaje2_3{
+    width: 33.3%;
+  }
+  .paisaje2_4{
+    width: 33.3%;
+  }
+  .paisaje2_5{
+    width: 33.3%;
+  }
+  .paisaje2_6{
+    width: 33.3%;
+  }
+}

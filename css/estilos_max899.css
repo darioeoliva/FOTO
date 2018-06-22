@@ -47,19 +47,19 @@
   }
   .contacto{
     /* width: 100%; */
-    width: 97%;
+    width: 95%;
     order: 9;
   }
   .terminos{
-    width: 97%;
+    width: 95%;
     order: 10;
   }
   .redes{
-    width: 97%;
+    width: 95%;
     order: 11;
   }
   .derechos{
-    width: 94%;
+    width: 90%;
     order: 12;
   }
 }

@@ -107,16 +107,21 @@ img{
   /* background-color: green; */
   margin-top: 27px;
   margin-left: 27px;
+  margin-right: 15px;
 }
 .contacto div{
   font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 4px;
 }
+.contacto a{
+  color: black;
+}
 .terminos{
   /* background-color: red; */
   margin-top: 27px;
   margin-left: 27px;
+  margin-right: 15px;
 }
 .terminos div{
   font-size: 1.5em;
@@ -128,6 +133,7 @@ img{
   margin-top: 27px;
   margin-left: 27px;
   margin-bottom: 20px;
+  margin-right: 15px;
 }
 .redes div{
   font-size: 1.5em;
@@ -142,7 +148,7 @@ img{
   /* background-color: brown; */
   margin-top: 27px;
   margin-left: 27px;
-  margin-right: 27px;
+  margin-right: 15px;
   margin-bottom: 20px;
 }
 .derechos div{

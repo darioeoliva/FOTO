@@ -1,0 +1,35 @@
+.img_retratos{
+  background-color: #d5c75f;
+}
+.retrato2_1 img{
+  width: 90%;
+  margin: 5%;
+  filter: blur(10px);
+}
+.retrato2_2 img{
+  width: 90%;
+  margin: 5%;
+  filter: grayscale(100%);
+}
+.retrato2_3 img{
+  width: 90%;
+  margin: 5%;
+  filter: sepia(90%);
+}
+.retrato2_4 img{
+  width: 90%;
+  margin: 5%;
+  filter: grayscale(100%);
+}
+.retrato2_5 img{
+  width: 90%;
+  margin: 5%;
+}
+.retrato2_6 img{
+  width: 90%;
+  margin: 5%;
+  filter: grayscale(100%);
+}
+#retratos{
+  text-decoration-line: none;
+}

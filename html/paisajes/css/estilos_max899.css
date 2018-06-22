@@ -1,0 +1,29 @@
+@media (max-width: 899px){
+  .img_paisajes{
+    order: 4;
+  }
+  .paisaje2_1{
+    width: 100%;
+    order: 5;
+  }
+  .paisaje2_2{
+    width: 100%;
+    order: 6;
+  }
+  .paisaje2_3{
+    width: 100%;
+    order: 7;
+  }
+  .paisaje2_4{
+    width: 100%;
+    order: 8;
+  }
+  .paisaje2_5{
+    width: 100%;
+    order: 9;
+  }
+  .paisaje2_6{
+    width: 100%;
+    order: 10;
+  }
+}

@@ -1,0 +1,24 @@
+@media (min-width: 900px){
+  .img_retratos{
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .retrato2_1{
+    width: 33.3%;
+  }
+  .retrato2_2{
+    width: 33.3%;
+  }
+  .retrato2_3{
+    width: 33.3%;
+  }
+  .retrato2_4{
+    width: 33.3%;
+  }
+  .retrato2_5{
+    width: 33.3%;
+  }
+  .retrato2_6{
+    width: 33.3%;
+  }
+}
